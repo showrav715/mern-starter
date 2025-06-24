@@ -17,13 +17,13 @@ yarn exec Developer715
 
 
 # Start backend (runs on port 3000)
-npm run Developer715
+npm run node
 
 # Start full stack (frontend + backend on port 3001)
 npm run dev
 
 # Using Yarn
-yarn run Developer715
+yarn run node
 yarn run dev
 
 
