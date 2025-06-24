@@ -1,0 +1,62 @@
+{
+  "name": "Developer-715",
+  "version": "1.0.0",
+  "description": "Developer 715 is a comprehensive full-stack project structure designed to streamline the development of web applications using the popular Developer 715 stack: MongoDB, Express.js, React, and Node.js. Built with simplicity and scalability in mind, Developer 715.js empowers developers to create robust and efficient applications from end to end.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "node": "node app/config/cli.js run:nodex",
+    "create:model": "node app/config/cli.js make:model",
+    "create:controller": "node app/config/cli.js make:controller",
+    "create:middleware": "node app/config/cli.js make:middleware",
+    "create:page": "node app/config/cli.js make:page",
+    "create:component": "node app/config/cli.js make:component",
+    "create:loader": "node app/config/cli.js make:loader",
+    "create:layout": "node app/config/cli.js make:layout"
+  },
+  "keywords": [
+    "Developer 715",
+    "Developer 715 Stack",
+    "React",
+    "Express",
+    "MongoDB",
+    "Node JS",
+    "Developer 715 Project"
+  ],
+  "author": "Developer 715",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.1",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "hpp": "^0.2.3",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.0",
+    "nodemailer": "^7.0.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.5.0",
+    "react-loading-skeleton": "^3.5.0",
+    "react-router-dom": "^7.6.2",
+    "tailwindcss": "^4.1.10"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "autoprefixer": "^10.4.21",
+    "chokidar": "^4.0.3",
+    "postcss": "^8.5.6",
+    "vite": "^6.3.5"
+  }
+}
